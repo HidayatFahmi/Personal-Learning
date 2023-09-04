@@ -1,1 +1,5 @@
-1. Pengenalan WEb Dev
+* Pengenalan WEB Dev
+* Pengenanalan HTML, CSS dan JS
+* Web development workflow and career
+* 
+
