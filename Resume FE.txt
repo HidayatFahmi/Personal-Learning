@@ -1,5 +1,96 @@
+>>>>>>>>>>>>>>>>>>>>>>>>> Day 1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 * Pengenalan WEB Dev
 * Pengenanalan HTML, CSS dan JS
 * Web development workflow and career
-* 
+* IDE introduction
+- VsCode, Sublime Text, IJ
+
+* node.JS
+* npm install
+* hacker rank, leet code, freeCodeCamp
+
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 2 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+* Algoritma pemrograman dasar javascript 1
+- Algoritma
+- flow chart 
+- pseudocode
+- pengenalan JS 
+- instalassi node.JS
+- Googling tips
+
+* karakteristik Algoritma
+- limited
+- unambigous
+- has inputs and outputs
+- effective
+
+* algoritma - structure basic
+- sekuensial, process yang lurus
+- seleksi/kondisi, has a junction
+- perulangan/looping
+
+* Latihan, Algoritma penjumlahan 2 angka
+
+* flowchart, draws.io 
+- flowchart notasi
+
+* Pseudocode, mirip dengan kode tapi ditulis dengan bahasa sederhana tanpa aturan baku dalam penulisan
+* Pengenalan javascript
+* instalasi node.JS
+
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 3 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+* Algoritma pemrogrmana dasar javascript 2
+1. tipe data
+- js adalah dynamic typing, tipe data dinamis. 
+- tipe data : string, number, boolean, null, undefined, object, function, array.
+- null sdh didefenisian tapi tidak ada nilai
+- let, var, const.
+- string interpolation/backtick
+- object terdiri dari key and value
+- array bisa mnemapung object
+- array bisa bernialai array atau memiliki multidimensi
+- pada sebuah function walaupun  bertipe data key consta namun nilai dari key bisa diubah
+
+2. input/output
+- npm install readline-sync, tujuan agar bisa menambahkan input/berinteraksi
+- npm, paket library, framework dll
+- perbedaan package.json dan package-lock.json
+- nvm use [version]
+
+3. opertaror angka 
+- prefix : --x
+- postfix : x++
+
+4. operator logika
+- negasi/kebalikan (-)
+
+5. operator komparasis
+- equal, not equal, greater than, less than.
+- membandingkan value saja : ==
+- komparasi value dan tipe data : ===
+
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 4 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* Algoritma pemrograman dasar javascript 3
+* conditional statement
+- if,  else, else if
+* ternary operator
+* equality comparisons
+* coercion, diubah/konversi otomatis
+* conversion, konversi manual
+* truthy and falsy values
+- null, undefined,false, nan, 0, ""
+
+* switch statement
+- using stritch equals "==="
+
+* loops and iteration
+- for, while, do while
+- DRY, Don't repeat yourself
+- template literal/backtick
 
