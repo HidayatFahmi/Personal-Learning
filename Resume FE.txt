@@ -93,4 +93,52 @@
 - for, while, do while
 - DRY, Don't repeat yourself
 - template literal/backtick
+- infinity loop
 
+* for of
+* for in,object
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 5 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* Algoritma pemrograman dasar javascript 4
+1. Basic data structure
+- tipe data primitif, tipe data yang hanya bisa menampung 1 jenis tipe data
+
+* array
+- index and element
+- shallow copy  
+- deep copy: Array.from();
+- array method
+
+2. understanding array & object
+* object, non primitive-values
+* key and value
+* object constructor & object literal
+* deep copy pada oject : Object.Assign({}, object)
+
+>>>>>>>>>>>>>>>>>>>>>>>> live coding : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* array
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 6 live coding : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1. function
+- camalCase
+- hoisted
+* function scope
+* var, global scope
+* recursion
+* nested function and closure
+* predefine function, fungsi bawaan
+* function expression
+* bilangan fibonacci
+
+2. lodash, library
+* library and framework
+* npm install lodash
+* lodash documentation
+- lodash version
+- lodash first and last
+- lodash chunking
+- lodash random 
+- lodash shuffle
+- lodash times/brp kali
+- lodash delay
+- lodash range

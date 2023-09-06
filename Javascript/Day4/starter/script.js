@@ -95,17 +95,33 @@ switch (calculatorX){
 }
 
 // ================================== Loops and iterations
+
 let langkah=10;
 let step = 10;
 for(let a=0;a<10;a++){
     console.log(`langkah ke=${a}`);
 }
 
-while(langkah <20){
-    langkah ++;
-    console.log(`langkah ke ${langkah}`);
+
+for(second =3;second>=1;second --){
+    console.log(`tahun baru dalam ${second}`)
+    if(second ===1){
+        console.log(`Hore...🎉`);
+    }
 }
 
-do{
-    console.log("step ke-"+step)
-}while(step<9);
+for(bilangan =0;bilangan<=10;bilangan++){
+    if(bilangan%2==0){
+    console.log("lompat")
+    continue;
+    console.log(`bilangan ${bilangan}`)
+    }
+    console.log(`bilangan ${bilangan}`)
+}
+
+for(let menit=1;menit<=5;menit++){
+    for(let detik=0;detik<60;detik++){
+        console.log(`${detik}`)
+    }
+    console.log(`menit ke- ${menit}`);
+}
