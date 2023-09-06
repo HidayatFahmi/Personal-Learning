@@ -118,7 +118,7 @@
 >>>>>>>>>>>>>>>>>>>>>>>> live coding : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
 * array
 
->>>>>>>>>>>>>>>>>>>>>>>> Day 6 live coding : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>> Day 6 Algoritma pemrograman dasar 5 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
 1. function
 - camalCase
 - hoisted
@@ -140,5 +140,30 @@
 - lodash random 
 - lodash shuffle
 - lodash times/brp kali
-- lodash delay
+- lodash delay, ada javascript sudah ada async
 - lodash range
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 7 Algoritma pemrograman dasar 6 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1. scope variables concept
+* global scope
+* function scope
+* block scope
+* module scope
+- type module for import export
+
+* var, function scope variable => menjadi scope global
+
+
+2. spread operator
+* menyebarkan data array/object
+
+3. rest opertaror
+* destructuring, unpack array/object
+* destructuring function
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 8 Algoritma pemrograman dasar 7 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+>>>>>>>>>>>>>>>>>>>>>>>> Live coding2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* array
+

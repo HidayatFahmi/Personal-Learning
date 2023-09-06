@@ -52,3 +52,26 @@ const array7 = [1,2,3,4,5,6,7,8,9];
 
 let acak = _.shuffle(array7);
 console.log(acak);
+
+// ===================== lodash times
+let times = _.times(8, ()=> {
+    console.log("print")
+})
+
+// ===================== lodash delay
+
+console.log("first message");
+function message(){
+    console.log("last message");
+}
+
+// _.delay(message, 5000);
+
+// ===================== lodash range
+const array8 = [1,2,3,4,5,6,7,8,9];
+
+let ranging1 = _.range(5,15);
+let ranging2 = _.range(5,15,3);
+
+console.log(ranging1);
+console.log(ranging2);
