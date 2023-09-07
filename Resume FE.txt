@@ -162,8 +162,35 @@
 * destructuring function
 
 >>>>>>>>>>>>>>>>>>>>>>>> Day 8 Algoritma pemrograman dasar 7 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1. OOP 
+* class
+- constructor
+- variabel/properti
+- fungsi
+
+
+* encapsulation
+- this. bisa diakses didalam kelas, sedangkan let/const/non-this hanya bisa diakses didalam constructor
+
+* abstraction 
+- wajib mengimplementasi methodparent class
+
+* inheritance
+- pewarisan 
+
+* polymorphism
+- override
+- overloading
+
+2. class 
 
 
 >>>>>>>>>>>>>>>>>>>>>>>> Live coding2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
 * array
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 8 Algoritma pemrograman dasar 8 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* OOP lanjutan
+- assign fungction kedalam variabel
+
+* import-export
 
