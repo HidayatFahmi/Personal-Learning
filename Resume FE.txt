@@ -188,9 +188,19 @@
 >>>>>>>>>>>>>>>>>>>>>>>> Live coding2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
 * array
 
->>>>>>>>>>>>>>>>>>>>>>>> Day 8 Algoritma pemrograman dasar 8 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
-* OOP lanjutan
-- assign fungction kedalam variabel
+>>>>>>>>>>>>>>>>>>>>>>>> Day 9 Algoritma pemrograman dasar 8 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1 OOP lanjutan
+* assign fungction kedalam variabel
+* functional class
 
 * import-export
+- menngunakan module, tidak bisa diketik pada browser
+- export default diluar curly bracket dan hanya bisa 1 dari 1 file
+-  menyederhanakan nama file dengan 'as'
+
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 10 Algoritma pemrograman dasar 9 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1. bubble sort
+2. binary search
+
 
