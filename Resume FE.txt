@@ -233,3 +233,25 @@
 * video
 * audio
 * iframe
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 13 HTML2 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1. list
+* ordered list
+- value : A,A,i,I,1
+
+* unordered list
+* description list
+
+2. table
+* table, thead, tbody, tr, td, th
+* attribute
+- border
+- cellpadding
+- rowspan
+- colspan
+
+3. from
+* input, radio, textarea
+* attribute
+- name, method, action
+* type
