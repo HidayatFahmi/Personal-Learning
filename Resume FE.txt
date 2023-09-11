@@ -286,5 +286,26 @@
 * rgba, a = alpha channel for opacity
 
 4. Font
+* font-family
+- google font :
+* font-weight
+* font-size
+* line height
+
 5. Text Alignment
+- justify
+- inherit
+
 6. List
+* orderedl list
+* unordered list
+* list-style-type
+* list-style-images
+* list style position
+
+7. CSS Specificity
+* inline
+* Id
+* class
+* Tag
+* Universal
