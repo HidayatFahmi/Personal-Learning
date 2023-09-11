@@ -1,0 +1,32 @@
+h4{
+    background-color: olive;
+    color: white;
+}
+
+/* Attribute Selector */
+input[type=password]{
+    padding: 30px;
+    background-color: slategray;
+    color: white;
+}
+
+input[type=text]{
+    padding: 50px;
+    background-color: darkred;
+    color: white;
+}
+
+.colorGreen{
+    background-color: aqua;
+}
+#colorOrange{
+    background-color: orange;
+}
+#colorBlue{
+    background-color: blue;
+}
+
+/* Universal Selector */
+/* *{
+    background-color: aquamarine;
+} */

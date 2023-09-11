@@ -269,8 +269,22 @@
 - external
 
 1. CSS Syntax
+* Selector, property, value
+
 2. CSS selector
+* Class, tanda titik
+* Id, tanda pagar
+* Tag, nama tag
+* Attribute, 
+- contoh : input[type=text]{}
+* Universal, tanda *
+
 3. color
+* named color
+* hex color
+* rgb
+* rgba, a = alpha channel for opacity
+
 4. Font
 5. Text Alignment
 6. List
