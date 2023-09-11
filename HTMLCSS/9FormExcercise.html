@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table{
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td, th{
+            border: 2px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+        label{
+            font-weight: bold;
+        }
+        .field-group{
+            margin-bottom: 2vh;
+        }
+    </style>
+    <title>Form Excercise</title>
+</head>
+<body>
+    <h1>Excercise</h1>
+    <table border="1" cellpadding = "10">
+        <thead>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+            <th>Hobbies</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Alfred</td>
+                <td rowspan="2">Chang</td>
+                <td rowspan="2">27</td>
+                <td>Play Guitar</td>
+            </tr>
+            <tr>
+                <td>Play Basketball</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Allen</td>
+                <td rowspan="3">Barry</td>
+                <td rowspan="3">30</td>
+                <td>Skateboard</td>
+            </tr>
+            <tr>
+                <td>Singing</td>
+            </tr>
+            <tr>
+                <td>Hiking</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Budi</td>
+                <td rowspan="2">Cikgu</td>
+                <td rowspan="2">16</td>
+                <td>Sleep</td>
+            </tr>
+            <tr>
+                <td>Travelling</td>
+            </tr>
+            <tr>
+                <td >Jessica</td>
+                <td >Truneau</td>
+                <td >27</td>
+                <td>Shopping</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <form action="">
+        <div class="field-group">
+            <label for="">Name</label>
+            <input type="text" placeholder="Input your first name">
+            <input type="text" placeholder="Input your last name"><br>
+        </div>
+        <div class="field-group">
+            <label for="">Age</label>
+            <input type="number" placeholder="Inout your age"><br>
+        </div>
+        <div class="field-group">
+            <label for="">Hobbies</label><br>
+            <textarea name="" id="" cols="30" rows="3"></textarea><br>
+        </div>
+        <input type="submit" value="submit"> Submit
+    </form>
+</body>
+</html>

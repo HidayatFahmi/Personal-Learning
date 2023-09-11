@@ -1,0 +1,40 @@
+.navbar .form, .home{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+.navbar{
+    background-color: aqua;
+    height: 40px;
+}
+.main-content{
+    padding: 10px;
+    width: 700px;
+}
+
+.side-bar{
+    padding: 10px;
+}
+
+.side-bar-content img{
+    width: 200px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+.side-bar-content{
+    display: flex;
+    margin-bottom: 16px;
+    background-color: rgba(231, 200, 163, 07);
+}
+
+.content{
+    display: flex;
+    background-color: rgb(181, 220, 253);
+}
+
+.main-content button{
+    background-color: rgb(195, 222, 222);
+    height: 25px;
+}

@@ -1,0 +1,55 @@
+.navbar .form, .home{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.navbar{
+    background-color: aqua;
+    height: 40px;
+}
+
+.content{
+    background-color: rgb(156, 232, 232);
+    height: 100vh;
+    margin-top: -18px;
+}
+
+.title{
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 26px;
+}
+
+
+.content form{
+    background-color: rgb(245, 247, 252);
+    width: 500px;
+    margin: auto;
+
+}
+
+.content .input{
+    padding: 20px;
+}
+
+.input-text input{
+    width: 420px;
+    height: 25px;
+}
+
+.gender{
+    margin-top: 12px;
+}
+.gender input{
+    width: 20px;
+    height: 20px;
+
+}
+
+.gender, .hobbies, .country, .check-box, .desc, button{
+    margin-top: 12px;
+}
+

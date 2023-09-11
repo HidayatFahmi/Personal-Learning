@@ -251,7 +251,26 @@
 - colspan
 
 3. from
-* input, radio, textarea
+* input
+* button
+* select
+* text Area
 * attribute
-- name, method, action
+- name, method, action, value, placeholder
 * type
+- radio, checkbox, text, email, number, 
+
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 14 CSS1 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* CSS tidak bisa berdiri sendiri
+* CSS import
+- inline
+- internal
+- external
+
+1. CSS Syntax
+2. CSS selector
+3. color
+4. Font
+5. Text Alignment
+6. List

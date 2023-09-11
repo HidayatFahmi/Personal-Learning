@@ -1,0 +1,67 @@
+.about-me{
+    background-image: url(image/unsplash1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar .form, .home{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.navbar{
+    background-color: aqua;
+    height: 40px;
+}
+
+.topic{
+    margin: auto;
+    width: 600px;
+    background-color: rgba(59, 238, 208, 0.7);
+    margin-top: 100px;
+    padding :12px;
+    line-height: 22px;
+}
+.images{
+    float: left;
+    height: 210px;
+}
+
+.topic img{
+    width: 150px;
+    margin-right: 10px;
+}
+
+.title 
+{
+    background-color: rgb(44, 128, 225);
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 3px solid black;
+}
+
+
+.name{
+    background-color: rgb(44, 128, 225);
+    text-align: center;
+    font-size: 17px;
+    width: 150px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+}
+.topic span{
+    font-size: 17px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

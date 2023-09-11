@@ -6,22 +6,43 @@
     <title>Form</title>
 </head>
 <body>
-    <h2>Form</h2>
+    <h2 >Form</h2>
     <form action="" name="Form Pendaftaran">
         <label for="">Nama :</label><br>
         <input type="text" name="username" placeholder="input username"><br>
         <input type="text" name="username" placeholder="input username" readonly value="Fahmi Hidaya"><br>
         <input type="text" name="username" placeholder="input username" disabled><br>
+        <input type="number" placeholder="number"><br>
+        <input type="email" placeholder="email"> <br>
         <label for="">Password</label>
         <input type="password" name="password" placeholder="Unput Password"><br>
 
-        <label for="">upload picture</label>
+        <label for="">Upload picture</label>
         <input type="file" name="" id="">
         <br>
 
         <label for="">Gender :</label>
         <input type="radio" name="gender" value="male">Male
         <input type="radio" name="gender" value="female">female
+    </form>
+    <br>
+    <form action="" method="post">
+        <label for="">Transportation</label><br>
+        <input type="checkbox" name="trans" value="bike"> Bike <br>
+        <input type="checkbox" name="trans" value="bus"> Bus <br>
+        <input type="checkbox" name="trans" value="taxi"> Taxi <br><br>
+
+        <label for="">About me</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+        <input type="button" value="button">Button <br>
+        <input type="submit" name="submit" id="">Submit <br>
+
+        <label for="">Komputer OS</label>
+        <select name="" id="">
+            <option value="windows">Windows</option>
+            <option value="Linux">Linux</option>
+            <option value="mac">Mac</option>
+        </select>
     </form>
 </body>
 </html>
