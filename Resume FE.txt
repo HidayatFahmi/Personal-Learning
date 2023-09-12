@@ -430,6 +430,15 @@
 - mengkonversi frame figma menjadi website real 
 - https://www.figma.com/file/lzK0wgWbha9OI4UIJRIx6C/Responsive-Web-Design-with-Bootstrap-(Dibimbing)?type=design&node-id=1033%3A453325&t=EA1MBf6HIuVpEs4K-1
 
-
-
 6. Navbar
+* navar-expands
+* navbar-light, dark
+* navbar-brand
+* navbar toggler
+- data-bs-target
+- data-bs-toggler
+- aria-controls
+- aria-expanded
+- arial-label
+
+* dropdown
