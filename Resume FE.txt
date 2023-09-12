@@ -392,7 +392,38 @@
 >>>>>>>>>>>>>>>>>>>>>>>> Day 18 Bootstrap 2 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
 1. Bootstrap installation
 2. buttons
+* single button
+* button group
+* button outline : btn-outline-primary
+* button size : btn-sm ...
+* custom btn :  --bs-btn-color : white;
 
 3. icons
+* cara install
+1. dengan cdn
+- copy cdn
+- dengan svg
+
+2. download dan inclde di folder
+3.dengan npm atau yarn
+
 4. Forms
-5. Navbar
+* from control
+- fieldset, legend
+
+* check & radios
+- form-check-input
+- switch : form-switch, role="switch"
+
+* Input group
+- floating labels, label yg bergerak
+- kurung input kedalam .form-floating
+
+* select
+* range
+* layout
+* validation, cek kesalahan email contohnya
+
+5. Introduction to figma, collaborate interface
+
+6. Navbar

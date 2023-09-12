@@ -1,0 +1,6 @@
+.custom-buttons{
+    --bs-btn-color : white;
+    --bs-btn-bg : crimson;
+    --bs-btn-border-color : orange;
+    --bs-btn-border:4px;
+}
