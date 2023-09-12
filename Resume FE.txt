@@ -416,6 +416,7 @@
 - switch : form-switch, role="switch"
 
 * Input group
+- input-group-text
 - floating labels, label yg bergerak
 - kurung input kedalam .form-floating
 
@@ -425,5 +426,10 @@
 * validation, cek kesalahan email contohnya
 
 5. Introduction to figma, collaborate interface
+* slicing figma
+- mengkonversi frame figma menjadi website real 
+- https://www.figma.com/file/lzK0wgWbha9OI4UIJRIx6C/Responsive-Web-Design-with-Bootstrap-(Dibimbing)?type=design&node-id=1033%3A453325&t=EA1MBf6HIuVpEs4K-1
+
+
 
 6. Navbar
