@@ -309,3 +309,60 @@
 * class
 * Tag
 * Universal
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 15 CSS2 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1. Span and div
+* span membunkus sepanjang element
+* div membungkus 1 baris penuh 
+
+2. border properties
+* box model 
+* shorthand
+-  1 = semua sisi, 2 = atas-bawah, 3 = atas-bawah, kiri, kanan, 4 = kiri-kanan, atas, kanan, bawah atas
+* border properties
+- border width
+- border style
+- border color
+- border radius
+
+3. width and height
+
+4. layout
+* float : left, right
+* position : static, fixed, sticky, relative, absolute
+* Display: 
+- inline
+- block
+- inline-block
+- grid
+- none, hidden 
+- flex : flex-direction, flex column, etc
+
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 16 Career Preparation : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* CV ATS 
+* CV Creative
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 17 Bootstrap 1 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* framework front-end agar lebih rresponsive
+* rwd, responsive web-developer
+1. introduction Bootstrap
+* pre-made html/CSS
+* javascript-widgets
+* mobile first, resonsive layout
+* not support IE 10/11
+* how to install, use cdn : cloud delivery network
+- create new index.html and and meta = "viewport"
+- add link and script 
+1. buka website bootstrap
+2. copas file html, css, js dan popovers, unutk menggunakan utility dropdown, select dll
+
+
+2. viewport
+* area di komputer diabawah navbar
+
+3. frontend layout
+4. container and grid
+5. images
+6. media query
+
