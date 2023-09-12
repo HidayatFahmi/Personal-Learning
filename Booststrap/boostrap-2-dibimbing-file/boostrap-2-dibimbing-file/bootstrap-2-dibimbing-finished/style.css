@@ -1,0 +1,38 @@
+@keyframes rotate_image {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation-name: rotate_image;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.custom-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.custom-buttom {
+  --bs-btn-padding-y: 24px;
+  --bs-btn-padding-x: 24px;
+  --bs-btn-font-size: 14px;
+}
+
+.custom-button-different-style {
+  --bs-btn-color: white;
+  --bs-btn-bg: crimson;
+  --bs-btn-border-color: oranged;
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-bg: black;
+  --bs-btn-hover-border-color: crimson;
+}
+
+.navbar-scroll-height {
+  --bs-scroll-height: 100px;
+}

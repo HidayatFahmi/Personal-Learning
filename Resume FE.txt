@@ -359,10 +359,40 @@
 
 
 2. viewport
-* area di komputer diabawah navbar
+* area di komputer diabawah navbar unutk melihat ukuran layar device 
+<meta name = "viewport" content="width=device-width, initial-scale=1">
 
 3. frontend layout
-4. container and grid
-5. images
-6. media query
+* breakpoints, block of responsive design (standar ukuran device)
+- use media query
+* grid system
+- container, rows, columns
+- container-{breakpoints}, ex : .container-xl
 
+
+4. container and grid
+* gutter, spacing antar kolom
+* order, merubah posisi
+* offset, membuat kolom kosong
+
+5. images
+* img-fluid
+* img-thumbnail, ada border
+* align images
+* float, mx-auto
+
+6. media query
+* media query at css : @media
+* min-width
+* max-width
+* sungle and between breakpoints 
+- @media (min-width : 576px) and (max-width: 991.98px){...}
+
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 18 Bootstrap 2 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1. Bootstrap installation
+2. buttons
+
+3. icons
+4. Forms
+5. Navbar

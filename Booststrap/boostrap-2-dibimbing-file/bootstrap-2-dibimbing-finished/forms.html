@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="h1 text-center">Basic Forms in Bootstrap</h1>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <fieldset>
+              <legend>Login to continue</legend>
+              <div class="mb-3">
+                <label class="form-label" for="u_name">Username</label>
+                <input class="form-control" type="text" id="u_name" required />
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="u_pass">Password</label>
+                <input
+                  class="form-control"
+                  type="password"
+                  id="u_pass"
+                  required
+                />
+              </div>
+              <button class="btn btn-success" type="submit">Login</button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <h1 class="h1 text-center">Bootstrap Form Control</h1>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="u_name" class="form-label">Username</label>
+              <input type="text" class="form-control" id="u_name" />
+            </div>
+            <div class="mb-3">
+              <label for="u_comment" class="form-label">Comment</label>
+              <textarea id="u_comment" class="form-control" rows="5"></textarea>
+            </div>
+            <div class="mb-3">
+              <label for="u_text" class="form-label">Some Text</label>
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                id="u_text"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="u_text1" class="form-label">Some Text</label>
+              <input
+                type="text"
+                class="form-control form-control-sm"
+                id="u_text1"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="u_email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control form-control-sm"
+                id="u_email"
+                value="johndoe@gmail.com"
+                disabled
+              />
+            </div>
+            <div class="mb-3">
+              <label for="u_file" class="form-label">File</label>
+              <input
+                type="file"
+                class="form-control form-control-sm"
+                id="u_file"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="u_file" class="form-label">File</label>
+              <input
+                type="file"
+                class="form-control form-control-sm"
+                id="u_file"
+                disabled
+              />
+            </div>
+            <div class="mb-3">
+              <label for="u_color" class="form-label">Color</label>
+              <input
+                type="color"
+                class="form-control form-control-sm form-control-color"
+                id="u_color"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="u_color" class="form-label">Color</label>
+              <input
+                disabled
+                type="color"
+                class="form-control form-control-sm form-control-color"
+                id="u_color"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="h1 text-center">Bootstrap Form Control with Datalist</h1>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="datalist" class="form-label">Datalist</label>
+              <input
+                disabled
+                list="datalistOptions"
+                class="form-control"
+                id="datalist"
+                placeholder="Type to search.."
+              />
+              <datalist id="datalistOptions">
+                <option value="San Fransico"></option>
+                <option value="New York"></option>
+                <option value="Seattle"></option>
+                <option value="Los Angeles"></option>
+                <option value="Chicago"></option>
+              </datalist>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="h1 text-center">Bootstrap Form Control with Select Option</h1>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="countries" class="form-label">Country</label>
+              <select id="countries" class="form-control form-control-sm">
+                <option selected>Select country</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="countries" class="form-label">Country</label>
+              <select
+                id="countries"
+                class="form-control form-control-sm"
+                multiple
+              >
+                <option selected>Select country</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+              </select>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <h1 class="h1 text-center">Bootstrap Checks and Radios</h1>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                value="Checked"
+                id="defaultCheckBox"
+              />
+              <label for="defaultCheckBox" class="form-check-label"
+                >Default Checkbox</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                value="Checked"
+                id="defaultCheckBox"
+                checked
+              />
+              <label for="defaultCheckBox" class="form-check-label"
+                >Default Checkbox</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                value="Checked"
+                id="defaultCheckBox1"
+                checked
+              />
+              <label for="defaultCheckBox1" class="form-check-label"
+                >Default Checkbox</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                disabled
+                type="checkbox"
+                class="form-check-input"
+                value="Checked"
+                id="defaultCheckBox"
+                checked
+              />
+              <label for="defaultCheckBox" class="form-check-label"
+                >Default Checkbox</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                disabled
+                type="checkbox"
+                class="form-check-input"
+                value="Checked"
+                id="defaultCheckBox"
+              />
+              <label for="defaultCheckBox" class="form-check-label"
+                >Default Checkbox</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                disabled
+                type="radio"
+                class="form-check-input"
+                value="Male"
+                name="gender"
+                id="defaultRadio1"
+              />
+              <label for="defaultRadio1" class="form-check-label">Male</label>
+            </div>
+            <div class="form-check">
+              <input
+                checked
+                disabled
+                type="radio"
+                class="form-check-input"
+                value="FeMale"
+                name="gender"
+                id="defaultRadio2"
+              />
+              <label for="defaultRadio1" class="form-check-label">FeMale</label>
+            </div>
+            <div class="form-check form-switch">
+              <input
+                type="checkbox"
+                id="switchBoxDefault"
+                class="form-check-input"
+                role="switch"
+              />
+              <label for="switchBoxDefault" class="form-check-label"
+                >Default Switch</label
+              >
+            </div>
+            <div class="form-check form-switch">
+              <input
+                disabled
+                type="checkbox"
+                id="switchBoxDefault"
+                class="form-check-input"
+                role="switch"
+              />
+              <label for="switchBoxDefault" class="form-check-label"
+                >Default Switch</label
+              >
+            </div>
+            <div class="form-check form-switch">
+              <input
+                checked
+                disabled
+                type="checkbox"
+                id="switchBoxDefault"
+                class="form-check-input"
+                role="switch"
+              />
+              <label for="switchBoxDefault" class="form-check-label"
+                >Default Switch</label
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="h1 text-center">Bootstrap Checks and Radios Reverse</h1>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-12">
+          <form>
+            <div class="form-check form-check-reverse">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                value="Checked"
+                id="defaultCheckBox"
+              />
+              <label for="defaultCheckBox" class="form-check-label"
+                >Default Checkbox</label
+              >
+            </div>
+            <div class="form-check form-check-reverse">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                value="Checked"
+                id="defaultCheckBox"
+                checked
+              />
+              <label for="defaultCheckBox" class="form-check-label"
+                >Default Checkbox</label
+              >
+            </div>
+            <div class="form-check form-check-reverse">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                value="Checked"
+                id="defaultCheckBox1"
+                checked
+              />
+              <label for="defaultCheckBox1" class="form-check-label"
+                >Default Checkbox</label
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <h1 class="h1 text-center">Bootstrap Range</h1>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label class="form-label" for="custom_range">Range</label>
+              <input class="form-range" type="range" id="custom_range" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="custom_range"
+                >Range Disabled</label
+              >
+              <input
+                class="form-range"
+                type="range"
+                id="custom_range"
+                disabled
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="custom_range"
+                >Range Disabled</label
+              >
+              <input
+                class="form-range"
+                type="range"
+                id="custom_range"
+                min="0"
+                max="5"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="custom_range"
+                >Range Disabled</label
+              >
+              <input
+                class="form-range"
+                type="range"
+                id="custom_range"
+                min="0"
+                max="5"
+                step="0.5"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <h1 class="h1 text-center">Bootstrap Input Groups</h1>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <div class="input-group">
+                <span class="input-group-text">Username</span>
+                <input type="text" class="form-control" placeholder="johndoe" />
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="johndoe" />
+                <span class="input-group-text">Username</span>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group">
+                <span class="input-group-text">$</span>
+                <input type="text" class="form-control" placeholder="15,000" />
+                <span class="input-group-text">.00</span>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Username"
+                />
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" placeholder="Twitter" />
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group flex-nowrap">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Username"
+                />
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" placeholder="Twitter" />
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group input-group-sm">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Username"
+                />
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" placeholder="Twitter" />
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group">
+                <span class="input-group-text">
+                  <input type="checkbox" class="form-check-input mt-0" />
+                </span>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group">
+                <span class="input-group-text">
+                  <input type="radio" class="form-check-input mt-0" />
+                </span>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group">
+                <span class="input-group-text">Full Name</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="First Name"
+                />
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Last Name"
+                />
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group">
+                <span class="input-group-text">Donation</span>
+                <span class="input-group-text">$</span>
+                <input type="text" class="form-control" />
+                <span class="input-group-text">.00</span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="h1 text-center">
+      Bootstrap Input Groups with Dropdown and Buttons
+    </h1>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <div class="input-group">
+                <button class="btn btn-primary" type="button">Button</button>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group">
+                <input type="text" class="form-control" />
+                <button class="btn btn-primary" type="button">Button</button>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group">
+                <button class="btn btn-primary" type="button">Button</button>
+                <button class="btn btn-warning" type="button">Button</button>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group">
+                <input type="text" class="form-control" />
+                <button class="btn btn-primary" type="button">Button</button>
+                <button class="btn btn-warning" type="button">Button</button>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group">
+                <button
+                  class="btn btn-success dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Dropdown
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">One</a></li>
+                  <li><a class="dropdown-item" href="#">Two</a></li>
+                  <li><a class="dropdown-item" href="#">Three</a></li>
+                  <li><a class="dropdown-item" href="#">Four</a></li>
+                </ul>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group">
+                <input type="text" class="form-control" />
+                <button
+                  class="btn btn-success dropdown-toggle"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                >
+                  Dropdown
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">One</a></li>
+                  <li><a class="dropdown-item" href="#">Two</a></li>
+                  <li><a class="dropdown-item" href="#">Three</a></li>
+                  <li><a class="dropdown-item" href="#">Four</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group">
+                <button class="btn btn-success">Action</button>
+                <button
+                  class="btn btn-success dropdown-toggle dropdown-toggle-split"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                >
+                  <span class="visually-hidden">Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">One</a></li>
+                  <li><a class="dropdown-item" href="#">Two</a></li>
+                  <li><a class="dropdown-item" href="#">Three</a></li>
+                  <li><a class="dropdown-item" href="#">Four</a></li>
+                </ul>
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group">
+                <input type="text" class="form-control" />
+                <button
+                  class="btn btn-success dropdown-toggle dropdown-toggle-split"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                >
+                  <span class="visually-hidden">Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">One</a></li>
+                  <li><a class="dropdown-item" href="#">Two</a></li>
+                  <li><a class="dropdown-item" href="#">Three</a></li>
+                  <li><a class="dropdown-item" href="#">Four</a></li>
+                </ul>
+                <button class="btn btn-success">Action</button>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group">
+                <label for="choose" class="input-group-text">Country</label>
+                <select id="choose" class="form-control">
+                  <option selected>choose your country</option>
+                  <option value="one">one</option>
+                  <option value="Two">Two</option>
+                  <option value="Three">Three</option>
+                  <option value="Four">Four</option>
+                </select>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group">
+                <label for="choose_file" class="input-group-text"
+                  >Upload Profile Pic</label
+                >
+                <input type="file" class="form-control" id="choose_file" />
+                <button type="submit" class="btn btn-success">Upload</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <h1 class="h1 text-center">Bootstrap Floating Labels</h1>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3 form-floating">
+              <input
+                type="text"
+                class="form-control is-invalid"
+                id="floatingInput"
+                placeholder="Username"
+                value="johndoe@gmail.com"
+              />
+              <label for="floatingInput">Username</label>
+            </div>
+            <div class="mb-3 form-floating">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingInput1"
+                placeholder="Password"
+              />
+              <label for="floatingInput1">Password</label>
+            </div>
+            <div class="mb-3 form-floating">
+              <select id="country" class="form-select">
+                <option value="One">One</option>
+                <option value="Two">Two</option>
+                <option value="Three">Three</option>
+              </select>
+              <label for="country">Works with select</label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <h1 class="h1 text-center">Bootstrap with Form Layout</h1>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="first_name" class="form-label">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="first_name"
+                  required
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="last_name" class="form-label">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="last_name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="email_id" class="form-label">Email ID</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email_id"
+                  required
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="phone_number" class="form-label">Phone</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone_number"
+                  required
+                />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-12">
+                <label for="address" class="form-label">Address</label>
+                <textarea
+                  id="address"
+                  rows="5"
+                  class="form-control"
+                  placeholder="1234 main st"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="city" class="form-label">City</label>
+                <input type="text" class="form-control" id="city" />
+              </div>
+              <div class="col-md-4">
+                <label for="state" class="form-label">State</label>
+                <select id="state" class="form-select">
+                  <option value="One">One</option>
+                  <option value="Two">Two</option>
+                  <option value="Three">Three</option>
+                  <option value="Four">Four</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="code" class="form-label">Pin</label>
+                <input type="text" class="form-control" id="code" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-12">
+                <div class="form-check">
+                  <input type="checkbox" id="check" class="form-check-input" />
+                  <label for="check" class="form-check-label">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-12">
+                <input type="submit" class="btn btn-success" value="Sign-up" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <h1 class="h1 text-center">Bootstrap Horizontal Forms</h1>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="row mb-2 g-2">
+              <label
+                for="email_id"
+                class="col-md-2 col-form-label col-form-label-sm"
+                >Email ID</label
+              >
+              <div class="col-md-10">
+                <input
+                  type="email"
+                  class="form-control form-control-sm"
+                  id="email_id"
+                  placeholder="Your Email"
+                />
+              </div>
+            </div>
+            <div class="row mb-2 g-2">
+              <label
+                for="user_name"
+                class="col-md-2 col-form-label col-form-label-sm"
+                >Username</label
+              >
+              <div class="col-md-10">
+                <input
+                  type="text"
+                  class="form-control form-control-sm"
+                  id="user_name"
+                  placeholder="Username"
+                />
+              </div>
+            </div>
+            <div class="row mb-2 g-2">
+              <label
+                for="password"
+                class="col-md-2 col-form-label col-form-label-sm"
+                >Password</label
+              >
+              <div class="col-md-5">
+                <input
+                  type="password"
+                  class="form-control form-control-sm"
+                  id="password"
+                  placeholder="Password"
+                />
+              </div>
+              <div class="col-md-5">
+                <input
+                  type="password"
+                  class="form-control form-control-sm"
+                  id="password1"
+                  placeholder="Re-Enter Password"
+                />
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col-md-10 offset-md-2">
+                <input
+                  type="submit"
+                  class="btn btn-sm btn-success"
+                  value="Sign-up to Continue"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <h1 class="h1 text-center">Boostrap Auto Sizing Forms</h1>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form class="row g-2">
+            <div class="col-auto">
+              <label for="name" class="visually-hidden">Name</label>
+              <input
+                type="text"
+                id="name"
+                class="form-control form-control-sm"
+                placeholder="John Doe"
+              />
+            </div>
+            <div class="col-auto">
+              <label for="username" class="visually-hidden">Username</label>
+              <div class="input-group input-group-sm">
+                <span class="input-group-text">@</span>
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control form-control-sm"
+                  placeholder="Username"
+                />
+              </div>
+            </div>
+            <div class="col-auto">
+              <label for="preference" class="visually-hidden">Preference</label>
+              <select id="preference" class="form-select form-select-sm">
+                <option selected>Choose...</option>
+                <option value="One">One</option>
+                <option value="Two">Two</option>
+                <option value="Three">Three</option>
+              </select>
+            </div>
+            <div class="col-auto">
+              <input
+                type="checkbox"
+                id="remember-me"
+                class="form-check-input"
+              />
+              <label for="remember-me" class="form-check-label"
+                >Remember Me</label
+              >
+            </div>
+            <div class="w-100 m-0"></div>
+            <div class="col-auto">
+              <button class="btn btn-success btn-sm">
+                Sign-up to get started!
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <h1 class="h1 text-center">Bootstrap Inline Forms</h1>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form
+            class="row row-cols-lg-auto g-3 align-items-center justify-content-center"
+          >
+            <div class="col-12">
+              <label for="inline-username" class="visually-hidden"
+                >Username</label
+              >
+              <div class="input-group input-group-sm">
+                <span class="input-group-text">@</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inline-username"
+                  placeholder="Username"
+                />
+              </div>
+            </div>
+            <div class="col-12">
+              <label for="preference" class="visually-hidden">Preference</label>
+              <select id="preference" class="form-select form-select-sm">
+                <option selected>Select your preference..</option>
+                <option value="...">...</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <div class="form-checl small m-0">
+                <input type="checkbox" id="check" class="form-check-input" />
+                <label for="check" class="form-check-label">Remember me</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <input type="submit" class="btn btn-sm btn-primary" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <h1 class="h1 text-center">Boostrap Form Validation</h1>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <form name="myForm" onsubmit="runMe(); return false">
+            <div class="mb-2">
+              <label for="username" class="form-label">Username</label>
+              <input
+                type="text"
+                id="username"
+                class="form-control form-control-sm"
+                name="u_name"
+              />
+            </div>
+            <div class="mb-2">
+              <label for="password" class="form-label">Password</label>
+              <input
+                type="password"
+                id="password"
+                class="form-control form-control-sm"
+                name="u_pass"
+              />
+            </div>
+            <div class="mb-2">
+              <input
+                type="submit"
+                class="btn btn-success btn-sm"
+                name="u_login"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script>
+      const u_name = document.myForm.u_name;
+      const u_pass = document.myForm.u_pass;
+
+      const runMe = () => {
+        if (u_name.value == "") {
+          u_name.classList.add("is-invalid");
+        } else if (u_name.value) {
+          u_name.classList.remove("is-invalid");
+          u_name.classList.add("is-valid");
+        }
+
+        if (u_pass.value == "") {
+          u_pass.classList.add("is-invalid");
+        } else if (u_pass.value) {
+          u_pass.classList.remove("is-invalid");
+          u_pass.classList.add("is-valid");
+        }
+      };
+    </script>
+  </body>
+</html>

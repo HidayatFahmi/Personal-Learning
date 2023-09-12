@@ -1,0 +1,23 @@
+.container {
+  margin-bottom: 5rem;
+}
+
+.custom-image {
+  width: 300px;
+}
+
+.h-10 {
+  height: 10rem;
+}
+
+@media (min-width: 576px) {
+  .custom-image {
+    width: 33.333%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .custom-image {
+    width: 100%;
+  }
+}
