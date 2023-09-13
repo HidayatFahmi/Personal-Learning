@@ -1,0 +1,101 @@
+.signIn a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.form{
+    width: 500px;
+}
+
+.banner1 img, .banner2 img{
+    height: 450px;
+    width: auto;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.banner2 img{
+    margin-left: 0px;
+}
+
+.banner2 .nav-link{
+    background-color: azure;
+
+}
+
+.add img{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: -15px;
+    left: 3px;
+}
+
+.banner1{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.banner2{
+    position: relative;
+    left: 0;
+}
+
+.dropdown2{
+    position: absolute;
+    top: 0px;
+    right: 11px;
+    z-index: 9999;
+    padding: 7px;
+    border: 2px solid darkblue;
+}
+
+.bannerContent{
+position: relative;
+top: 0;
+left: 0;
+}
+
+.accordion-item{
+    background-color: black;
+}
+
+.breadcrumb-item a{
+    text-decoration: none;
+}
+
+.topCastImg{
+    float: left;
+    border-radius: 50%;
+}
+
+
+/* Transition */
+.navbarBrand{
+    scale: 0.8;
+    transition: 1s;
+
+}
+
+.navbarBrand:hover{
+ transform: rotate(360deg) scale(1.5);
+ opacity: 1;
+}
+
+.menu:hover, .watchlist:hover{
+    background-color: rgb(45, 90, 187);
+}
+/* micro clear fix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/* .cf {
+    *zoom: 1;
+} */

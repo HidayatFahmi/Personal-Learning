@@ -468,5 +468,29 @@
 
 
 4. Carousel
+* fitur utk banner yg bisa move img/silde
+* data-bs-ride="carousel;
+* carousel-controls-prev
+* "carousel-controls-prev-icon
+* carousel-indicators
+* data-bs-slides-to"0";
+* carousel-fade, efek animasi
+
 5. Modal
+* page yang muncul setelah menyelesaikan suatu instruksi
+* bagian modal;
+- modal title, body, footers
+- modal fade
+- modal-dialogs
+- modal-content
+- data-bs-backdrop="static"
+- data-bs-keyboard="false"
+- modal-dialog-centered
+
+* modal size
+- modal-dialog modal-xl
+
 6. Overview mini project
+
+>>>>>>>>>>>>>>>>>>>>>>>> WPU : DOM <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* Document object model

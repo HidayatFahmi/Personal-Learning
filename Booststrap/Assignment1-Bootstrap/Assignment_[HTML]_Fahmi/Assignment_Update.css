@@ -1,0 +1,8 @@
+.custom-divider{
+    --bs-breadcrumb-divider:">";
+}
+.carousel-content{
+    background-color: #212529;
+    /* height: 300px; */
+    color: white;
+}
