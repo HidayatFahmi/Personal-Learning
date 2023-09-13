@@ -442,3 +442,31 @@
 - arial-label
 
 * dropdown
+
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 19 Bootstrap 3 : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+1. Alert
+* feedback message 
+* type : 
+- alertprimary, secondary, dll
+* alert dismissible
+* aria untuk tuna-netra
+
+2. Breadcrumbs
+* indikasi user sedang dipage mana, atau utk hierarki navigasi
+* separator : /, >, dll
+
+3. Card
+* dibagi 3 section
+- card headers, 
+- body 
+- footers
+* card-img-overlay
+* w-75
+* text-bg-dark
+
+
+4. Carousel
+5. Modal
+6. Overview mini project

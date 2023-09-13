@@ -1,0 +1,7 @@
+.custom-divider{
+    --bs-breadcrumb-divider: '>';
+}
+
+.card-custom-overlay{
+    background-color: rgba(28, 24, 24, 0.5);
+}
