@@ -492,5 +492,26 @@
 
 6. Overview mini project
 
+>>>>>>>>>>>>>>>>>>>>>>>> Day 20 Portfolio and business understanding class : <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* linkedin profile
+* github/gitlab
+* personal website
+* blog (web-related)
+* projects
+* contribute to open source project
+* business understanding
+- waterfall, sequencial
+- agile, for  develope project
+
+* VCS : Version control sysem
+* GIT adalah salah satu VCS
+* 
+
 >>>>>>>>>>>>>>>>>>>>>>>> WPU : DOM <<<<<<<<<<<<<<<<<<<<<<<<<<<<
 * Document object model
+* DOM tree
+* node/simpul
+* DOM Selection
+* DOM Manipulation
+* DOM Traversal
+* Event Handling
