@@ -562,10 +562,32 @@
 * getElementsByTagName() : mengahasilan html collection
 * getElementByClassName() : html collection
 * querySelector() : element
-* querySelectorAll() : mode list
+* querySelectorAll() : node list
+* dari sisi performance getElementById dan getElementsByTagName adalah yang paling cepat
 
+* mengubah node root
+- mempersempit scope
 
+3 DOM Manipulation :
+* manipulasi element
+- element.innerHTML
+- element.style.<property>
+- element.setAttribute()
++ element.getAttribute()
++ element.setAttribute()
++ element.removeAttribute()
 
+- element.classList, 
++ lement.classList.add(),
++ lement.classList.remove(),
++ lement.classList.toggle(), jika element tidak memiliki class maka ditambahkan jika sudah maka diremove
++ lement.classList.item(), mengetahui class tertentu
++ lement.classList.contains(), cek kelas tertentu
++ lement.classList.replace(), 
+
+- ... dll
+
+* manipulasi node
 
 
 >>>>>>>>>>>>>>>>>>>>>>>> WPU : DOM <<<<<<<<<<<<<<<<<<<<<<<<<<<<
