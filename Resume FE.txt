@@ -404,7 +404,7 @@
 - copy cdn
 - dengan svg
 
-2. download dan inclde di folder
+2. download dan include di folder
 3.dengan npm atau yarn
 
 4. Forms
@@ -505,7 +505,68 @@
 
 * VCS : Version control sysem
 * GIT adalah salah satu VCS
-* 
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 21 GIT <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* intruksi pada git
+- git add .
+- git commit -m "message"
+- git remote add origin (url)
+- git pull 
+- git push origin (branch)
+- git config --global user.name "username"
+- git config --global user.email "email"
+- git clone (url)
+- git reset : hard reset dan soft reset
+- git reset --hard (id commit)
+- git reset --hard HEAD~1
+- git reset --hard HEAD~n, kembali n langkah
+- git reset --soft, back to stage area
+
+* git tagging, menandai version : git tag -a [tagname] -m "[message]"
+- git push origin [versi]
+- git origin tags
+
+* git ignore, mengecualikan file 
+* git branch
+- git branc -a, melihat semua branch
+- git checkout (nama branch)
+- git checkout -b (nama branch), checkout ke branch yg baru dibuat
+- merging branch
+- pull request
+* fork
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 22 Pramid terms sharing session <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 23 Mid term test <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 24 Mini Project Mentoring : HTML, CSS, dan Bootstrap <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 25 Javascript <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1. DOM tree
+- representasi element html yang terdiri dari node
+- root addalah simpul paling luar
+- node memiliki banyak tipe yaitu, element, attribute, teks dan lain2
+* nodelist, dapat berisi node apapun
+* html collection, harus berisi elemnt html
+* html collection bersifat live sedangan html collection tidak
+* struktur hierarki
+- root node
+- parent node, 1 tingkat diatas dari child
+- grand parent node,  2 tingkat diatas 
+- child node
+- sibling, child node yang memilii parent yang samapai
+- descandent, turunan
+
+2. DOM Selection
+* getElementById() : menghasilka elemnt
+* getElementsByTagName() : mengahasilan html collection
+* getElementByClassName() : html collection
+* querySelector() : element
+* querySelectorAll() : mode list
+
+
+
+
 
 >>>>>>>>>>>>>>>>>>>>>>>> WPU : DOM <<<<<<<<<<<<<<<<<<<<<<<<<<<<
 * Document object model
