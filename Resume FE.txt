@@ -559,7 +559,7 @@
 
 2. DOM Selection
 * getElementById() : menghasilka elemnt
-* getElementsByTagName() : mengahasilan html collection
+* getElementsByTagName() : html collection
 * getElementByClassName() : html collection
 * querySelector() : element
 * querySelectorAll() : node list
@@ -574,20 +574,56 @@
 - element.style.<property>
 - element.setAttribute()
 + element.getAttribute()
-+ element.setAttribute()
 + element.removeAttribute()
 
 - element.classList, 
-+ lement.classList.add(),
-+ lement.classList.remove(),
-+ lement.classList.toggle(), jika element tidak memiliki class maka ditambahkan jika sudah maka diremove
-+ lement.classList.item(), mengetahui class tertentu
-+ lement.classList.contains(), cek kelas tertentu
-+ lement.classList.replace(), 
++ element.classList.add(),
++ element.classList.remove(),
++ element.classList.toggle(), jika eelement tidak memiliki class maka ditambahkan jika sudah maka diremove
++ element.classList.item(), mengetahui class tertentu
++ element.classList.contains(), cek kelas tertentu
++ element.classList.replace(), 
 
 - ... dll
 
 * manipulasi node
+- document.createElement();
+- document.createTextNode();
+- node.appendChild();
+- node.insertBefore();
+- parentNode.removeChild();
+- parentNode.replaceChild();
+
+* method batu
+- parentNode.appendChild
+- parenrMode.prependChild
+- childNode.before
+- childNode.after
+- childNode.remove
+- childNode.replaceWith()
+
+* Event
+* merepresentasikan kejadian yang didalam DOM, bisa dilalkukan user atapun oleh appendChild
+* ada beberapa cara unutk  merepakan Event
+1. event handler
+- on<event>,
+- inline HTML attribute
+- element method
+2. addEventListener. memiliki 2 parameter
+
+* event, menimpa/mengabaikan event sebelumnya
+* add.EventListener, menmbahkan intruksi sebelumnya
+
+* Event List
+- click
+- dblclick
+- mouseenter
+
+* bera=mian dengan warna
+
+
+
+
 
 
 >>>>>>>>>>>>>>>>>>>>>>>> WPU : DOM <<<<<<<<<<<<<<<<<<<<<<<<<<<<
