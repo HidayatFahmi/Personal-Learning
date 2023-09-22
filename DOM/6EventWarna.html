@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            text-align: center;
+        }
+        .biru-muda{
+            background-color: lightblue;
+        }
+    </style>
+    <title>Event Warna</title>
+</head>
+<body class="biru-muda">
+    <h1>Bermain Dengan Warna</h1>
+    <button id="ubahWarna" type="button" style="background-color: aquamarine;">Ubah Warna</button>
+
+    <br><br>
+    <div class="slider merah">
+        <label for="range">R</label>
+        <input type="range" name="sliderMerah" min="0" max="255" >
+    </div>
+    <div class="slider merah">
+        <label for="range">G</label>
+        <input type="range" name="sliderHijau" min="0" max="255">
+    </div>
+    <div class="slider merah">
+        <label for="range">B</label>
+        <input type="range" name="sliderBiru" min="0" max="255">
+    </div>
+    <div class="check-box">
+        <label for="range">Choose</label>
+        <input type="checkbox" name="check" value="0">
+    </div>
+
+    <script src="6EventWarna.js"></script>
+</body>
+</html>
