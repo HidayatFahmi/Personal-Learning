@@ -619,8 +619,11 @@
 - dblclick
 - mouseenter
 
-* bera=mian dengan warna
-
+* bermain dengan warna
+* game suwit jawa
+- setInterval
+- setTimeout
+- new Date().Time()
 
 
 
