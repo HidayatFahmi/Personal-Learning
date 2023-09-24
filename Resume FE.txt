@@ -594,7 +594,7 @@
 - parentNode.removeChild();
 - parentNode.replaceChild();
 
-* method batu
+* method baru
 - parentNode.appendChild
 - parenrMode.prependChild
 - childNode.before
@@ -620,13 +620,31 @@
 - mouseenter
 
 * bermain dengan warna
+
 * game suwit jawa
 - setInterval
+- clearInterval
 - setTimeout
 - new Date().Time()
 
+* DOM Traversal/penelusuran DOM
+* tujuan ditelusuri
+* DOM traversal Method
+1. parentNode
+2. parentElement
+3. nextSibling
+4. nextElementSibling
+5. previousSibling
+6. previousElementSibling
 
+* prevent default
+- unutk mneghentikan aksi default sebuah element
 
+* Event Bubbling, mencegah efek bubbling pada elemnt yang memiliki berbeda aksi
+- e.stopPropagation();
+- e.target.parentElement
+
+* tahapan belajar javascript
 
 
 >>>>>>>>>>>>>>>>>>>>>>>> WPU : DOM <<<<<<<<<<<<<<<<<<<<<<<<<<<<
