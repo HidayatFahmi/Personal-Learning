@@ -1,0 +1,15 @@
+img{
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.nama{
+    line-height: 30px;
+}
+
+.Identitas{
+    width: 400px;
+    border: 2px solid black;
+    text-align: center;
+    margin-bottom: 20px;
+}

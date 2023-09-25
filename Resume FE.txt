@@ -638,6 +638,7 @@
 6. previousElementSibling
 
 * prevent default
+* event.preventDefault();
 - unutk mneghentikan aksi default sebuah element
 
 * Event Bubbling, mencegah efek bubbling pada elemnt yang memiliki berbeda aksi
@@ -645,6 +646,29 @@
 - e.target.parentElement
 
 * tahapan belajar javascript
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 26 React1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* the library for web and native user interface
+1. introduction to react JS
+2. Setup React JS
+3. Functional Components
+4. Styling React
+* react bisa ditambahkan pada kode php
+* prinsip react
+1. declarative
+2. komponen base
+3. lowa, learn one write anywhere (react native)
+
+* virtual DOM , create layer
+* Setup react 
+- ada 2 cara yaitu dengan meta frame work : next, gatsby, remix atau dengan polosan seperti vite
+- vite, module bundler
+1. install npm/yarn/pnpm
+- npm create vite@latest
+
+* functional Component
+
+
 
 
 >>>>>>>>>>>>>>>>>>>>>>>> WPU : DOM <<<<<<<<<<<<<<<<<<<<<<<<<<<<
