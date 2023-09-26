@@ -668,8 +668,23 @@
 
 * functional Component
 
+* Styling React
+- integrasi dengan module css
+- inline Styling
+- react bootstrap : 
+. npm install react-bootstrap bootstrap
+. import : import 'bootstrap/dist/css/bootstrap.min.css';
 
+* cara styling lain css : 
+1. material UI
+2. Chakra UI
+3. tailwind css
 
+>>>>>>>>>>>>>>>>>>>>>>>> Day 27 React2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1. Review virtual DOM rendering
+2. React state
+3. Parent and child communication
+4. use Effect
 
 >>>>>>>>>>>>>>>>>>>>>>>> WPU : DOM <<<<<<<<<<<<<<<<<<<<<<<<<<<<
 * Document object model
