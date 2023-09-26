@@ -681,9 +681,18 @@
 3. tailwind css
 
 >>>>>>>>>>>>>>>>>>>>>>>> Day 27 React2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 1. Review virtual DOM rendering
-2. React state
+2. React state 
+* reactive value, dengan useState : [counter, setCounter] = useState(0);
+* control input
+* hide and show value dengan boolean
+
 3. Parent and child communication
+* dengan props
+* mengganti value dari parent
+* passing value parent -> child
+
 4. use Effect
 
 >>>>>>>>>>>>>>>>>>>>>>>> WPU : DOM <<<<<<<<<<<<<<<<<<<<<<<<<<<<
