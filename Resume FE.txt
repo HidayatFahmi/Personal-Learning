@@ -693,13 +693,13 @@
 * mengganti value dari parent
 * passing value parent -> child
 
-4. use Effect
-
->>>>>>>>>>>>>>>>>>>>>>>> WPU : DOM <<<<<<<<<<<<<<<<<<<<<<<<<<<<
-* Document object model
-* DOM tree
-* node/simpul
-* DOM Selection
-* DOM Manipulation
-* DOM Traversal
-* Event Handling
+>>>>>>>>>>>>>>>>>>>>>>>> Day 28 React3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* pengulangan materi
+1. review functional componen, fungsi yang bisa mereturn html 
+2. rendering variable and function
+3. Ternary Conditional Operator dan Short-Circuit Conditional Expression
+4. render array
+5. render obejct, tidak bisa bisanya dengan cara akses object apa yang mau dirender
+6. merender object secara iteratif
+- Object.keys(nama variabel).map();
+7. event handling react
