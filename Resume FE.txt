@@ -695,11 +695,30 @@
 
 >>>>>>>>>>>>>>>>>>>>>>>> Day 28 React3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
 * pengulangan materi
-1. review functional componen, fungsi yang bisa mereturn html 
+1. review functional component, fungsi yang bisa mereturn html 
 2. rendering variable and function
 3. Ternary Conditional Operator dan Short-Circuit Conditional Expression
 4. render array
-5. render obejct, tidak bisa bisanya dengan cara akses object apa yang mau dirender
+5. render obejct, tidak bisa bisanya dengan cara akses object apa yang dirender
 6. merender object secara iteratif
 - Object.keys(nama variabel).map();
 7. event handling react
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 29 React4 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1. review event handling
+2. React State
+- variabel dengan value yg berubah2 (reactive variabel)
+- variabel biasa tidak akan menampilkan perubahan pada UI
+- import useState
+
+3. Parent and child communiacation, sejauh ini tidak bisa mempassing value dari child ke parent
+- props adalah sebua object
+
+4. useEffect
+- sideEffect, value dari yang berubah dari variabel dan intruksi yang sama
+- jika kita ingin melakukan sesuatu yg inkonsisten maka gunakan useEffect
+- localSorage.setItem("tulisan",tulisan)
+- localSorage.getItem("tulisan), mengambil data yang disimpan pada localstorage dengan key = "tulisan"
+
+
+5. Bagaimana front end dan back end berkomunikasi
