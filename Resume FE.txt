@@ -722,3 +722,12 @@
 
 
 5. Bagaimana front end dan back end berkomunikasi
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 30 React5 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1. useEffect
+* side effect on Components
+
+
+2. baaimana front end dan backend berkomunikasi
+3. CRUD
+
