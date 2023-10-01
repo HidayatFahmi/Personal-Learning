@@ -726,8 +726,18 @@
 >>>>>>>>>>>>>>>>>>>>>>>> Day 30 React5 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
 1. useEffect
 * side effect on Components
+- dependency
+- jika tidak ada dependency maka useEffect akan langsung dijalankan
+
+* useEffect with cleanup function
+
+2. bagaimana front end dan backend berkomunikasi
+* API ibarat waitres
+* fetching data
+- jsonpalceholder
+- {JSON.stringify(data)}
+- async function, await, try and catch
 
 
-2. baaimana front end dan backend berkomunikasi
-3. CRUD
-
+>>>>>>>>>>>>>>>>>>>>>>>> Day 31 React6 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1. pengulangan API
