@@ -741,3 +741,48 @@
 
 >>>>>>>>>>>>>>>>>>>>>>>> Day 31 React6 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
 1. pengulangan API
+2. useEffect tidak bisa memanggil fungsi async, buat fungsi baru didalam useEffect unutk memanggil fungsi async
+3. CRUD (Create, Read, Update, Post)
+* Read, Method : 'GET'
+- headers, apiKey
+
+* Create, method : 'POST'
+- headers, Authorization, Content-Type, body (argumen/parametersyg dikirim ke backend)
+
+* Update, method: 'POST'
+- id
+
+* delete, methot : 'DELETE
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 32 React7 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* React context
+- useContext, mentransfer/pertukaran data antar file dengan global state management unutk menghindari definiprops berulang pada aplikasi yg kompleks
+- createContext(); / kantong
+- provider / ruang (komponen yang bisa mengakses kantong)
+
+* alur
+1. userkonteks /nama bebas = createContext({}),
+2. function provider({childers}) / nama bebas
+3. userKonteks.Provider value={{}} / didalam function provider
+
+* react routing
+- simple routing, complex routing
+- Browser Routes, komponen dasar untuk menyimpan history
+- Routes, komponen redirection sesuai path
+- Router, path, element
+
+* flow
+install react=router react-router-dom
+
+* dynamic routing
+- useParams
+
+* nested routing, 
+* navigate halaman
+- <Link>
+- useNavigate()
+- clickBack, clickTo 
+
+
+
+
