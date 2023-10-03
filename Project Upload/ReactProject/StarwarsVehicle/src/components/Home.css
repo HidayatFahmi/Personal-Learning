@@ -1,0 +1,9 @@
+ .banner{
+    background-color: #000000;
+}
+
+.carousel-item img{
+    width: 700px;
+    height: 500px;
+    margin-top: 10px;
+}

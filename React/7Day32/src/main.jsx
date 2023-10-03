@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom/client'
 // import App from './Latihan1.jsx/Main'
 // import App from './Routing/App'
 // import App from './DynamicRouting/App'
-import App from './ReactRouterLatihan.jsx/App'
+// import App from './ReactRouterLatihan.jsx/App'
+import App from './ProjectReact/App'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
