@@ -1,0 +1,12 @@
+.banner-film1{
+    background-image: url("D:\WebDev\Personal Learning\Project Upload\ReactProject\StarwarsVehicle\public\banner.jpg");
+    height: 500px;
+    width: 800px;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+ .card img{
+    height: 250px;
+}
+

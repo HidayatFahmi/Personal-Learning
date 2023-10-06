@@ -16,7 +16,7 @@ export default function App(){
     )
 }
 
-export const UserContext = createContext();
+const UserContext = createContext();
 
 const Providernya = ({children}) => {
     const [login, setLogin] = useState(false);
