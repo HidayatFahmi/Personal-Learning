@@ -1,10 +1,15 @@
-import Home from './components/Home'
-import Film from './components/Film'
-import Vehicles from './Vehicles'
+import Home from './components/pages/Home'
+import Film from './components/pages/Film'
+import StarshipAll from './components/pages/StarshipAll'
+import VehicleAll from './components/pages/VehiclesAll'
+import PlanetAll from './components/pages/PlanetAll'
+import CharacterAll from './components/pages/CharacterAll'
+import SpeciesAll from './components/pages/SpeciesAll'
 import {Link, useNavigate} from "react-router-dom"
 import {Routes, Route} from "react-router"
 import { useState, useEffect, createContext, useContext } from 'react'
 import "./App.css"
+import Loading from "./components/pages/Loading"
 
 
 export const starwarsContext = createContext();
@@ -22,20 +27,45 @@ function App() {
     const [speciesList, setSpeciesList] = useState([]);
     const [clickFilm, setClickFilm] = useState(false)
     const [idFilm, setIdFilm] = useState(0);
+    const [title, setTitle] =  useState(null);
+    const [producer, setProducer] = useState(null);
+    const [director, setDirector] = useState(null);
+    const [releaseDate, setReleaseDate] = useState(null);
+    const [dataHome, setDataHome] = useState([]);
+    const [dataHomeReady, setDataHomeReady] = useState(false)
+    const [backDataZero, setBackDataZero] = useState(false);
 
     const navigate = useNavigate();
 
       useEffect(()=> {
-        const fetchingDataFilm = async() => {  
-        console.log(idFilm);
-       try{
-            const resp = await fetch(`https://swapi.dev/api/films/${idFilm}/`);
+
+        const fetchingDataHome = async()=>{
+          try{
+            console.log("fetching data home process........................")
+           const resp = await fetch("https://swapi.dev/api/films/");
+           const respJson = await resp.json();
+           setDataHome(respJson.results)
+           localStorage.setItem("dataHome", dataHome);
+           setDataHomeReady(true);
+          }catch(error){
+           console.error(error)
+          }
+       }
+
+        const fetchingDataFilm = async() => {
+          
+       try{            
+            const resp = await fetch(`https://swapi.dev/api/films/${idFilm}`);
             const respJson = await resp.json();
             const starships = respJson.starships;
             const vehicles = respJson.vehicles;
             const characters = respJson.characters;
             const planets = respJson.planets;
             const species = respJson.species;
+            const titleJson = respJson.title;
+            const producerJson = respJson.producer;
+            const directorJson = respJson.director;
+            const releaseDateJson = respJson.release_date;
 
             const starshipPromises = starships.map(async(starship) => {
                 const resp = await fetch(`${starship}`);
@@ -74,36 +104,72 @@ function App() {
             setCharactersList(characterData);
             setPlanetsList(planetData);
             setSpeciesList(speciesData)
+            setTitle(titleJson);
+            setProducer(producerJson);
+            setDirector(directorJson);
+            setReleaseDate(releaseDateJson);
+
+            console.log("idFilm",idFilm);
         }
    
        catch(error){
         console.error(error);
        }
     }
-        console.log('click film', clickFilm)
-       if(clickFilm){
+        console.log("producers",producer);
+        console.log("Data Home = ", dataHome)
+        console.log("vehicleList : ", vehiclesList);
+        console.log("characterList : ", charactersList);
+        console.log("planetList : ", planetsList);
+        console.log("speciesList : ", speciesList);
+        console.log("starshipList : ", starshipsList);
+
+
+        const storedIdFilm = localStorage.getItem("idFilm")
+
+        if(!charactersList.length && !vehiclesList.length){
+          console.log("Empty List")
+          fetchingDataHome();
+        }
+        
+       if(clickFilm || storedIdFilm>0){
          fetchingDataFilm();
-         navigate(`./film/${idFilm}`);
+         setIdFilm(parseInt(storedIdFilm))
+         navigate(`./film/${idFilm}`)
+         setBackDataZero(false);
        }
 
-    },[clickFilm])
+       if(backDataZero){
+        setVehiclesList([]);
+        setCharactersList([]);
+        setSpeciesList([]);
+        setPlanetsList([]);
+        setStarshipsList([]);
+       }
+
+    },[clickFilm, idFilm, navigate, producer, dataHome, charactersList.length])
 
     const backData = () => {
-      setVehiclesList([]);
-      setCharactersList([]);
-      setSpeciesList([]);
-      setPlanetsList([]);
-      setStarshipsList([]);
+      const storedDataHome = localStorage.getItem("dataHome");
+      console.log("==================="); 
       setClickFilm(false);
+      setBackDataZero(true)
+      setDataHomeReady(false);
+      setDataHome(storedDataHome);
+
+      console.log("vehicleList : ", vehiclesList);
+      console.log("backData");
+      console.log("clickFilm", clickFilm);
+      localStorage.removeItem("idFilm");
     }
 
 
   return (
     <>
-    <starwarsContext.Provider value={{starshipsList, vehiclesList, charactersList, speciesList, planetsList}}>
+    <starwarsContext.Provider value={{starshipsList, vehiclesList, charactersList, speciesList, planetsList, idFilm, title, director, producer, releaseDate, dataHome}}>
       <div className="section">
-      <div className="row">
-          <div className="col-12">
+      <div className="row navbar-app">
+          <div className="col-12 border-bottom border-2 border-light">
           <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
               <div className="container-fluid">
                   <a className="navbar-brand" href="#">Starwars</a>
@@ -116,13 +182,33 @@ function App() {
                               <Link className="nav-link" aria-current="page" to="/" onClick={backData}>Home</Link>
                             </li>
                             <li className="nav-item">
-                              <Link className="nav-link" to="/starships/all">Starships</Link>
-                            </li>
-                            <li className='nav-item'>
-                              <Link className="nav-link" to="/vehicles/all">Vehicles</Link>
-                            </li>
-                            <li className='nav-item'>
-                              <Link className="nav-link" to="/characters/all">Characters</Link>
+                              <div className="dropdown show d-flex align-items-center">
+                                <button className="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role='button'>
+                                  Categories
+                                </button>
+
+                                <div className="dropdown-menu" aria-labelledby='dropdownMenuLink'>
+                                  <a href="#" className='dropdown-item'>
+                                    <Link className="nav-link" aria-current="page" to="/starship/all" onClick={backData}>All Starship</Link>
+                                  </a>
+                                  <div className="dropdown-divider"></div>
+                                  <a href="#" className='dropdown-item'>
+                                    <Link className="nav-link" aria-current="page" to="/vehicle/all" onClick={backData}>All Vehicles</Link>
+                                  </a>
+                                  <div className="dropdown-divider"></div>
+                                  <a href="#" className='dropdown-item'>
+                                    <Link className="nav-link" aria-current="page" to="/character/all" onClick={backData}>All Characters</Link>
+                                  </a>
+                                  <div className="dropdown-divider"></div>
+                                  <a href="#" className='dropdown-item'>
+                                    <Link className="nav-link" aria-current="page" to="/planet/all" onClick={backData}>All Planets</Link>
+                                  </a>
+                                  <div className="dropdown-divider"></div>
+                                  <a href="#" className='dropdown-item'>
+                                    <Link className="nav-link" aria-current="page" to="/species/all" onClick={backData}>All Species</Link>
+                                  </a>
+                                </div>
+                              </div>
                             </li>
                         </ul>
                         <form className="d-flex w-50 ms-5" role="search">
@@ -136,12 +222,24 @@ function App() {
       </div>
 
       {/* Navbar end */}
-        <Routes>
-            <Route path="/" element={<Home  setIdFilm={setIdFilm} setClickFilm={setClickFilm}/>}/>
-            <Route path="/film/:filmId" element={<Film />}/>
-            <Route path="/vehicles/all" element={<Vehicles/>}/>
-        </Routes>
-        </div>                  
+        <div className="pages-content">
+        {dataHomeReady?
+          <div className="home-page">
+          <Routes>
+              <Route path="/" element={<Home  setIdFilm={setIdFilm} setClickFilm={setClickFilm} dataHome={dataHome}/>}/>
+              <Route path="/film/:idParams" element={<Film />}/>
+              <Route path="/starship/all" element={<StarshipAll/>}/>
+              <Route path="/vehicle/all" element={<VehicleAll/>}/>
+              <Route path="/character/all" element={<CharacterAll/>}/>
+              <Route path="/planet/all" element={<PlanetAll/>}/>
+              <Route path="/species/all" element={<SpeciesAll/>}/>
+          </Routes>
+          </div> :
+          <Loading/>
+        }
+        </div>
+        {/* End of pages content */}
+      </div>                  
     </starwarsContext.Provider>         
     </>
   )
@@ -149,3 +247,6 @@ function App() {
 
 export default App
 
+
+
+                            

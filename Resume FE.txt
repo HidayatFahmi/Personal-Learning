@@ -784,6 +784,14 @@ install react=router react-router-dom
 - clickBack, clickTo 
 
 
+>>>>>>>>>>>>>>>>>>>>>>>> Day 33 Mini project react mentoring <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 34 Redux 1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+
+
 
 
 
