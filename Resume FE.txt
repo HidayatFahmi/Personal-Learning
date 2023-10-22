@@ -787,8 +787,28 @@ install react=router react-router-dom
 >>>>>>>>>>>>>>>>>>>>>>>> Day 33 Mini project react mentoring <<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 >>>>>>>>>>>>>>>>>>>>>>>> Day 34 Redux 1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* versi :  redux-core dan redux-toolkit
+* install vite
+* instal library redux dan react-redux
+- createStore ibarat toko
+- reducer, gudang
+- state, barang
+- import useSelector
+
+* buat provider pada main.jsx
 
 
+>>>>>>>>>>>>>>>>>>>>>>>> Day 35 Redux 2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* memisahkan store dan reducers
+* action, mmeberikan perintah 
+- action harus memiliki properti type didefinisikan seagai konstanta string
+- dispatch, lempar
+- action merubah reducer, action berupa object
+- import useDispatch, unutk distribusi/lempar data
+
+* combine reducer, menyatukan reducer yg lebih dari 13
+
+>>>>>>>>>>>>>>>>>>>>>>>> Day 36 Redux 3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
 
