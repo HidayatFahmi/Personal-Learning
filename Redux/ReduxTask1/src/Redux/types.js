@@ -1,0 +1,7 @@
+export const TYPES = {
+    GET_DATA_SUCCEDD : "GET_DATA_SUCCEDD",
+    GET_DATA_LOADING : "GET_DATA_LOADING",
+    GET_DATA_FAIL : "GET_DATA_FAIL",
+    LOGIN : "LOGIN",
+    LOGOUT : "logout"
+}

@@ -801,19 +801,45 @@ install react=router react-router-dom
 >>>>>>>>>>>>>>>>>>>>>>>> Day 35 Redux 2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
 * memisahkan store dan reducers
 * action, mmeberikan perintah 
-- action harus memiliki properti type didefinisikan seagai konstanta string
+- action harus memiliki properti type didefinisikan sebagai konstanta string
 - dispatch, lempar
 - action merubah reducer, action berupa object
 - import useDispatch, unutk distribusi/lempar data
 
+* import combineReducers
 * combine reducer, menyatukan reducer yg lebih dari 13
 
 >>>>>>>>>>>>>>>>>>>>>>>> Day 36 Redux 3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
+* redux-action creator 
+- didalam action selain memberikan perintah juga memberikan data yaitu payload
+-  ada 2 tipe action : action dilempar langsung dan yang kedua dengan middleware
+
+* authAction berupa function yang mereturn sebuah action (type and payload)
+* tahapan belajar react
+-javascript
+- react basic : components,props, routing, authentication, otorisasi => product CRUD
+- react advance : custom hook, higher order component (hoc), useMemo, callBack
+- state management
+
+* install axios
+- axios lirary utk API call
+- salah satu kelebihan axios tidak perlu construct data ke json
+- dipake diindustri
+- ideal action creator ada 3 case,ketika berhasil,loading, gagal
+
+* untuk mengatasi agar komponen tidak render berulang pelajari useMemo dan callBack
 
 
+>>>>>>>>>>>>>>>>>>>>>>>> Day 37 Redux 4 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+* middleware perantara yang bisa mendispatch function
+* manage loading state
+* macam loading, sceletton, spinner, text, dll
+* middleware ; redux thunk, redux saga, ...
+* konfigurasi redux-thunk pada store dengan mengimport
+- import thunk from "redux-thunk"
+- import applyMiddleware from "redux"
+- const store = createStore(reducers, applyMiddleware(thunk))
 
-
-
-
+>>>>>>>>>>>>>>>>>>>>>>>> Day 38 Redux 5 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
